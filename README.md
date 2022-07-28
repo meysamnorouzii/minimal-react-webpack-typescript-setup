@@ -1,2 +1,1 @@
-# admin-panel-react
-React(CRA)+ Redux ToolKit + React Router + CSS Architecture(BEM) + SASS
+# minimal react, webpack, typescript setup
