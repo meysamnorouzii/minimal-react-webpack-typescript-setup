@@ -20,10 +20,23 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: [
+    'react',
+    'prettier',
+    'jsx-a11y',
+    'react-hooks',
+    '@typescript-eslint',
+  ],
   ignorePatterns: ['**/build/*.js', '**/node-modules/*'],
   rules: {
     semi: ['error', 'always'],
     quotes: ['error', 'single'],
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+        jsxBracketSameLine: false,
+      },
+    ],
   },
 };
