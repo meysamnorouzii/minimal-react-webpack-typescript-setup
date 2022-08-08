@@ -13,12 +13,18 @@
     "react",
     "typescript",
     "webpack",
-    "babel",
+    "babel"
   ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/meysamnorouzii/minimal-react-webpack-typescript-setup/issues"
   },
-  "homepage": "https://github.com/meysamnorouzii/minimal-react-webpack-typescript-setup#readme"
+  "homepage": "https://github.com/meysamnorouzii/minimal-react-webpack-typescript-setup#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3",
+    "webpack-merge": "^5.8.0"
+  }
 }
