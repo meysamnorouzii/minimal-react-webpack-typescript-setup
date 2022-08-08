@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --config webpack/webpack.config.js --env env=development",
-    "build": "webpack --config webpack/webpack.config.js --env env=production"
+    "build": "webpack --config webpack/webpack.config.js --env env=production",
+    "lint": "eslint src/**/*.{ts,tsx}"
   },
   "repository": {
     "type": "git",
