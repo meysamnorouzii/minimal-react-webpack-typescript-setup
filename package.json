@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/meysamnorouzii/minimal-react-webpack-typescript-setup#readme",
   "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "clean-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
+    "react-refresh": "^0.14.0",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.9.3",
