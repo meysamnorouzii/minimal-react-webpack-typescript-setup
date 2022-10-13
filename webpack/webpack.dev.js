@@ -15,6 +15,7 @@ module.exports = {
     client: {
       overlay: false,
     },
+    historyApiFallback: true,
   },
   plugins: [new ReactRefreshWebpackPlugin()],
 };
